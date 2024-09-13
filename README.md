@@ -5,7 +5,9 @@ Authorship
 Discussion of the software and its operation takes place in Telegram . The initial code for revision was taken HERE .
 
 AutoCliker Blum Script Launch Instructions
+
 Step 1: Download and Install Python
+
 Download and install the latest version of Python from [python.org]( https://www.python.org/ ). Make sure to check the "Add Python to PATH" option before installing.
 
 Step 2: Check Python and pip installation
@@ -13,24 +15,28 @@ Open a command prompt and enter the following commands to verify that Python and
 
 python --version
 pip --version
+
 Step 3: Download the AutoCliker Blum code from GitHub
-CLICK
 
 Step 4: Install Dependencies
 In the command line, navigate to the folder with the project files and install the dependencies:
 
-cd путь/к/вашей/папке
+
 pip install -r requirements.txt
+
 To launch the command line directly in the desired folder, you can enter cmd in the folder's address bar.
 
 Step 5: Launch the bot in TelegramDesktop or Web version.
 The script supports both versions.
 
 Step 6: Run the script
+
 Run the script with the command:
 
 python main.py
+
 Step 7: Select the window with the Blum open
+
 Please indicate the suggested serial number
 
 Step 8: Enter a value between 0 and 1 to randomize the star clicks, where 1 means collecting all stars.
