@@ -1,51 +1,43 @@
-# AutoCliker-Blum
-AutoClicker Blum - это адаптированный и улучшенный автокликер для автоматизации процесса сбора звёздочек в играх Blum. Софт поддерживает рандомизацию сбора звёздочек и автоматический запуск игр, пока не кончатся билеты.
+AutoCliker-Blum
+AutoClicker Blum is an adapted and improved autoclicker for automating the process of collecting stars in Blum games. The software supports randomization of star collection and automatic launch of games until tickets run out.
 
-# Авторство
-Обсуждение софта и его работы происходит в [Telegram](https://t.me/x_0xJohn). Изначальный код для доработки был взят [ТУТ](https://github.com/ndkwa/blum-autocliker). 
+Authorship
+Discussion of the software and its operation takes place in Telegram . The initial code for revision was taken HERE .
 
-# Инструкция запуска скрипта AutoCliker Blum
+AutoCliker Blum Script Launch Instructions
+Step 1: Download and Install Python
+Download and install the latest version of Python from [python.org]( https://www.python.org/ ). Make sure to check the "Add Python to PATH" option before installing.
 
-### Шаг 1: Скачайте и установите Python
-Скачайте и установите Python последней версии с [python.org](https://www.
-python.org/). 
-Обязательно отметьте опцию "Add Python to PATH" перед установкой.
+Step 2: Check Python and pip installation
+Open a command prompt and enter the following commands to verify that Python and pip are installed:
 
-### Шаг 2: Проверьте установку Python и pip
-Откройте командную строку и введите следующие команды для проверки установки Python и pip:
-```sh
 python --version
 pip --version
-```
-### Шаг 3: Скачайте код AutoCliker Blum с GitHub
-[КЛИК](https://github.com/Tess-OK/AutoClickerBlum)
+Step 3: Download the AutoCliker Blum code from GitHub
+CLICK
 
-### Шаг 4: Установите зависимости
-В командной строке перейдите в папку с файлами проекта и установите зависимости:
-```sh
+Step 4: Install Dependencies
+In the command line, navigate to the folder with the project files and install the dependencies:
+
 cd путь/к/вашей/папке
 pip install -r requirements.txt
-```
-Для запуска командной строки сразу в нужной папке, можете ввести cmd в адресной строке папки.
+To launch the command line directly in the desired folder, you can enter cmd in the folder's address bar.
 
-### Шаг 5: Запустите бота в TelegramDesktop или Web версии.
-Скрипт поддерживает обе версии.
+Step 5: Launch the bot in TelegramDesktop or Web version.
+The script supports both versions.
 
-### Шаг 6: Запустите скрипт
-Запустите скрипт командой:
-```sh
+Step 6: Run the script
+Run the script with the command:
+
 python main.py
-```
-### Шаг 7: Выберите окно с открытым Blum 
-Укажите предложенный порядковый номер
+Step 7: Select the window with the Blum open
+Please indicate the suggested serial number
 
-### Шаг 8: Введите значение от 0 до 1 для рандомизации прокликивания звезд, где 1 означает сбор всех звезд. 
-Выбор величины зависит от множества факторов: размера экрана, окна и т.д. Я выбираю значения 0.04 - 0.06 для сбора около 140-150 звезд. Вам необходимо самостоятельно подобрать необходимое значение.
+Step 8: Enter a value between 0 and 1 to randomize the star clicks, where 1 means collecting all stars.
+The choice of value depends on many factors: screen size, window, etc. I choose values ​​of 0.04 - 0.06 to collect about 140-150 stars. You need to choose the necessary value yourself.
 
-### Шаг 9: Начало работы
-Нажмите F6 для начала работы скрипта.
+Step 9: Getting Started
+Press F6 to start the script.
 
-# Дополнительные рекомендации по работе:
-- Уменьшайте размер окна с игрой так, чтобы вокруг него не было полей. Скрипт иногда может кликнуть мимо окна с игрой и появится окно с информацией о закрытии игры.
-
-
+Additional recommendations for work:
+Reduce the size of the game window so that there are no fields around it. The script can sometimes click past the game window and a window will appear with information about closing the game.
